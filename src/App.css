@@ -138,6 +138,7 @@
   position : relative;
   font-size : 16px;
   padding : 10px;
+  margin-bottom : 15px;
   background-color : white;
   border-radius : 10px;
   width : fit-content;
@@ -176,4 +177,33 @@
 
 .chat-footer > form > button {
   display : none;
+}
+
+.login {
+  background-color: #f8f8f8;
+  height: 100vh;
+  width: 100vw;
+  display : grid;
+  place-items: center;
+}
+
+.login-container {
+  padding : 100px;
+  text-align: center;
+  background-color: white;
+  border-radius : 10px;
+  box-shadow : 0 1px 3px rgba(0, 0 , 0 , 0.12)
+}
+
+.login-container > img {
+  object-fit : contain;
+  height : 100px;
+  margin-bottom : 40px;
+}
+
+.login-container > button {
+  margin-top : 50px;
+  text-transform: inherit !important;
+  background-color : #0a8d48 !important;
+  color:  white;
 }
